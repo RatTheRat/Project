@@ -1,0 +1,140 @@
+@media screen and (max-width: 1094px) {
+    .searchbutton{
+        left:70%;
+    }
+    .block_book{
+        width: 25%;
+        height: 240px;
+    }
+    .Wrapperblock{
+        width: 100%;
+    }
+    .books_cards{
+        justify-content: center;
+    }
+    .blockContent{
+        width: 100%;
+        height: auto;
+    }
+    .form{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 912px) {
+   
+    .searchbutton{
+        display: none;
+    }
+    .block_book{
+        height: 240px;
+    }
+    .Wrapper_title{
+        margin-top: 100px;
+    }
+    .navbar_menu{
+        width: 35%;
+        align-items: center;
+    }
+   
+}
+@media screen and (max-width: 731px) {
+    .Search_menu{
+        display: none;
+    }
+    .block_book{
+        width: 30%;
+    }
+    footer span{
+        margin-left: 30%;
+    }
+    .WrapperContent{
+        flex-direction: column;
+    }
+    .line{
+        display: none;
+    }
+}
+@media screen and (max-width: 613px) {
+  .Wrapperblock{
+    flex-direction: column;
+    align-items: center;
+  }
+  .block_book{
+    width: 70%;
+    height: 550px;
+  } 
+  .book_image{
+    height: auto;
+  }
+  .blockContent{
+    
+    height: auto;
+    }
+    .read{
+        padding: 0;
+    }
+    .submit{
+        padding-left: 25px;
+        padding-right: 84px;
+    }
+    .subregistr{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+@media screen and (max-width: 504px) {
+    .Wrapperblock{
+        gap: 70px;
+    }
+    .block_book{
+        width: 100%;
+        
+      } 
+    .buttons{
+        display: none;
+    }
+    .font{
+        font-size: 12px;
+    }
+    .blockContent{
+        font-size: 15px;
+        height: auto;
+    }
+    .subregistr{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .Wrapperblock{
+        gap: 200px;
+    }
+    .block_book{
+       
+        height: 400px;
+      } 
+      .font{
+        font-size: 10px;
+      }
+      .blockContent{
+        font-size: 15px;
+        height: auto;
+    }
+    .submit{
+        margin-left: 25%;
+    }
+    .subregistr{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .blockPhoto{
+        width: 100%;
+        height: auto;
+    }
+    .Wrapper,.BlockInfo{
+        padding: 3%;
+    }
+    .blockContent{
+        margin-bottom: 0px;
+    }
+}

@@ -177,7 +177,7 @@ h1,h2,.h3{
     flex-direction: column;
     width: 100%;
     margin-top: 150px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .title_info1{
     letter-spacing: 1px;
@@ -186,7 +186,9 @@ h1,h2,.h3{
     margin-left: 10%;
     letter-spacing: 4px;
 }
-
+.reverb{
+    flex-direction: row-reverse;
+}
 .Wrapper{
     margin-top: 60px;
     display: flex;
@@ -195,7 +197,7 @@ h1,h2,.h3{
     width: 100%;
     height: auto;
     background: rgba(255, 255, 255, 0.43);
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
 .Wrapper_title{
@@ -235,14 +237,20 @@ h1,h2,.h3{
 .WrapperContent{
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    gap:3%;
     width: 100%;
     
 }
+.blockPhoto{
+    display: flex;
+    width: 70%;
+    height: 450px;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
 .blockContent{
     display: flex;
-    padding: 25px;
-    width: 100%;
+    width: 30%;
     height: 450px;
     /* background: rgba(123, 35, 154, 0.63); */
     flex-direction: column;
@@ -253,10 +261,15 @@ h1,h2,.h3{
     margin-top: 100px;
     width: 1px;
     height: 300px;
-    background-color: #7B239A;
+    background-color: black;
 }
 
 .inform p{
+    font-size: 25px;
+    line-height: 35px;
+    text-indent: 35px;
+}
+.BlockInfo{
     text-indent: 35px;
 }
 .read{
@@ -282,7 +295,9 @@ h1,h2,.h3{
 footer span{
     margin-left: 45%;
 }
-
+.mt{
+    margin-top: 100px;
+}
 
 
 
