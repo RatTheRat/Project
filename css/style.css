@@ -63,7 +63,6 @@ h1,h2,.h3{
    
 }
 .search_bar{
-    margin-left: 10%;
     width: 60%;
     position: relative;
     display: flex;
@@ -181,7 +180,7 @@ h1,h2,.h3{
     margin-bottom: 200px;
 }
 .title_info1{
-    letter-spacing: 4px;
+    letter-spacing: 1px;
 }
 .title_info2{
     margin-left: 10%;
@@ -193,10 +192,8 @@ h1,h2,.h3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
     width: 100%;
     height: auto;
-    border-radius: 35px;
     background: rgba(255, 255, 255, 0.43);
     margin-bottom: 100px;
 }
@@ -239,7 +236,6 @@ h1,h2,.h3{
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
-    gap: 40px;
     width: 100%;
     
 }
