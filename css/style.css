@@ -46,6 +46,10 @@ main{
 }
 h1,h2,.h3{
     font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /*настройка сайта */
 
