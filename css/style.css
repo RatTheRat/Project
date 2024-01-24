@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height: 100%;
+}
+header,footer{
+    width: 100%;
+    background-color: black;
+}
+.flex{
+    display: flex;
+}
+.hide{
+    display: none;
+}
+
+header{
+    position: fixed;
+    margin-bottom:50px; 
+    z-index: 1000;
+    background-color: black;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    margin-top: 7%;
+    height: auto;
+    flex: 1 1 auto;
+    /* background:url('../image/bgfon.png')no-repeat; */
+    background-size: 100%;
+    object-fit: cover;
+    background-size: cover;
+   
+}
+h1,h2,.h3{
+    font-size: 25px;
+}
+/*настройка сайта */
+
+/*Разметка сайта */
+.h1Name{
+    color: white;
+    text-decoration: none;
+}
+.headerContent{
+    position: relative;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.search_bar{
+    margin-left: 10%;
+    width: 60%;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+.search_bar p{
+    color: white;
+}
+.list{
+    opacity: 0;
+    top: 32px;
+    display: flex;
+    visibility: hidden;
+    flex-direction: column;
+    padding: 16px;
+    width: 80%;
+    background-color: white;
+    position: absolute;
+    list-style-type: none;
+    transition: 1s all ease;
+    box-shadow: 0 0 0 3px rgba(0,0,0,.04), 0 4px 4px rgba(0, 0, 0, 0.04), 0 20px 40px rgba(16, 11, 11, 0.08);
+}
+
+.list a{
+    width: auto;
+    cursor: pointer;
+    padding: 6px;
+    text-decoration: none;
+    color: black;
+}
+.Search_menu{
+    padding: 16px;
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+    border-radius: 35px;
+    width: 80%;
+    height: 30px;
+    transition: 0.4s all ease;
+}
+.Search_menu:hover{
+    box-shadow: 0 0 0 3px rgba(0,0,0,.04), 0 4px 4px rgba(0, 0, 0, 0.04), 0 20px 40px rgba(16, 11, 11, 0.08);
+}
+.searchbutton{
+    position: absolute;
+    cursor: pointer;
+    left: 73%;
+}
+.buttons{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+.buttline{
+    width: 2px;
+    height: 30px;
+    background-color: black;
+}
+.auth,.registration{
+    display: flex;
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-bottom:2px solid #AC74BF ;
+}
+/* .auth:hover,.registration:hover{
+    border-bottom:2px solid #7B239A ;
+} */
+
+.purple{
+    color: #7B239A;
+}
+.font{
+    font-size: 18px;
+}
+.main_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.main_title{
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+}
+.title_button{
+    cursor: pointer;
+    display: flex;
+    border-bottom:2px solid white ;
+}
+.title{
+    font-size: 25px;
+    display: flex;
+}
+.sizep{
+    cursor: pointer;
+    height: 20px;
+    font-size: 18px;
+}
+.title_button a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.title_button:hover{
+    border-bottom:2px solid #7B239A ;
+}
+.welcome_title{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+.title_info1{
+    letter-spacing: 4px;
+}
+.title_info2{
+    margin-left: 10%;
+    letter-spacing: 4px;
+}
+
+.Wrapper{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    height: auto;
+    border-radius: 35px;
+    background: rgba(255, 255, 255, 0.43);
+    margin-bottom: 100px;
+}
+
+.Wrapper_title{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.Wrapperblock{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    width: 80%;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+}
+
+.block_book{
+    height: 300px;
+    width: 20%;
+}
+
+
+.book_image{
+    height: 280px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.Wrapper_cont{
+    display: flex;
+    width: 50%;
+   
+    background-color: red;
+}
+
+.WrapperContent{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+    
+}
+.blockContent{
+    display: flex;
+    padding: 25px;
+    width: 100%;
+    height: 450px;
+    /* background: rgba(123, 35, 154, 0.63); */
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.line{
+    margin-top: 100px;
+    width: 1px;
+    height: 300px;
+    background-color: #7B239A;
+}
+
+.inform p{
+    text-indent: 35px;
+}
+.read{
+    padding-left: 150px;
+}
+
+
+.footer{
+    padding: 35px;
+    gap: 25px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.footerblock{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+    
+}
+
+footer span{
+    margin-left: 45%;
+}
+
+
+
+
