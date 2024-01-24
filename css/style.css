@@ -58,6 +58,9 @@ p{
     color: white;
     text-decoration: none;
 }
+.Wrapper, .BlockInfo{
+    padding: 3%;
+}
 .headerContent{
     position: relative;
     height: 10vh;
@@ -160,6 +163,7 @@ p{
     border-bottom:2px solid white ;
 }
 .title{
+    padding: 3%;
     font-size: 25px;
     display: flex;
 }

@@ -127,8 +127,9 @@
         width: 100%;
         margin-left: 0%;
     }
+    
     .blockPhoto{
-        width: 100%;
+        width: auto;
         height: auto;
     }
     .Wrapper,.BlockInfo{
@@ -136,5 +137,8 @@
     }
     .blockContent{
         margin-bottom: 0px;
+    }
+    .h1Name{
+        font-size: 12px;
     }
 }
